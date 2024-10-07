@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Basics
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string firstname = "Akhila";
+            string lastname = "Patil";
+            string fullname= firstname + " "+ lastname;
+            Console.WriteLine(fullname);
+
+            //Better way to concat two strings:
+            int age = 24;
+            string fname = $"{firstname}  {lastname} is {age} years old ";
+            Console.WriteLine(fname);
+
+
+            //Sum of two numbers
+            Console.WriteLine("Enter the first number: );
+            String num1=Console.ReadLine();
+
+            Console.WriteLine("Enter the first number is: );
+            String num2=Console.ReadLine();
+
+            Console.WriteLine($"Sum of two numbers  is {num+num2}");
+
+        }
+    }
+}
