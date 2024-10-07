@@ -1,0 +1,67 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ArrayReversing
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter the number of the elements in the array");
+            int n = int.Parse(Console.ReadLine());
+
+            int[] arr = new int[n];
+            Console.WriteLine("Enter the arrayr  elements :");
+            for (int i = 0; i < n; i++)
+            {
+                arr[i] = int.Parse(Console.ReadLine());
+            }
+            if (n >= 2)
+            {
+                int temp = arr[0];
+                arr[0] = arr[1];
+                arr[1] = temp;
+            }
+            if (n >= 5)
+            {
+                int temp = arr[3];
+                arr[3] = arr[4];
+                arr[4] = temp;
+            }
+
+            Console.WriteLine("After reversing:");
+            foreach (int element in arr)
+            {
+                Console.WriteLine(element + " ");
+            }
+        }
+
+        /*  
+      Console.WriteLine("Enter the number of the elements in the array");
+       int n=int.Parse(Console.ReadLine());
+
+       int[] arr=new int[n];
+       Console.WriteLine("Enter the arrayr  elements :");
+       for(int i=0;i<n;i++){
+           arr[i]=int.Parse(Console.ReadLine());
+       }
+       if(n>=2){
+           int temp=arr[0];
+           arr[0]=arr[1];
+           arr[1]=temp;
+       }
+       if(n>=4){
+           int temp=arr[2];
+           arr[2]=arr[3];
+           arr[3]=temp;
+       }
+       Console.WriteLine("After reversing:");
+           foreach(int element in arr){
+               Console.WriteLine(element+ " ");
+           }
+*/
+    }
+}
