@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace QuestTraining
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] arr = new int[1];
+            int index = 0;
+            while (true)
+            {
+
+                Array.Resize(ref arr, arr.Length+1);
+                if (arr.Length < 2)
+                {
+                    Console.Write($"Enter number {arr.Length + 1}");
+                    Array.Resize(ref arr, arr.Length + 1);
+                    arr[index]=int.Parse(Console.ReadLine());
+                    index++;
+                    continue;
+                }
+                Console.Write($"Enter number {arr.Length + 1} or q to exit:");
+
+                string input=Console.ReadLine();
+                if (input== "q")
+                {
+                    break;
+                }
+                Array.Resize(ref arr,arr.Length+1);
+                arr[index]=int.Parse(input);
+               index++;
+
+                int sum = 0;
+                for(int i = 0; i < arr.Length; i++)
+                {
+                    sum=sum+arr[i];
+                }
+                Console.WriteLine(sum);
+            }
+
+            
+
+
+
+        }
+    }
+}
