@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Pattern2
+{
+    internal class Program
+    {
+        static void Main(string[] args) {
+
+		string pattern = "10_200_3_1";
+		int sum = 0;
+		int currentNumber = 0;
+		for (int i = 0; i < pattern.Length; i++)
+		{
+      char c = pattern[i];
+
+         if (c >= '0' && c <= '9')
+         {
+             currentNumber = currentNumber * 10 + (c - '0');
+
+         }
+         else {
+
+             sum = sum + currentNumber;
+             currentNumber = 0;
+         
+         
+         }
+
+		}
+     sum = sum + currentNumber;
+
+     Console.WriteLine("The sum is "+sum);
+
+	}
+    }
+}
