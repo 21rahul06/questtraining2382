@@ -1,0 +1,7 @@
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DelQ8\bin\Debug\DelQ8.exe.config
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DelQ8\bin\Debug\DelQ8.exe
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DelQ8\bin\Debug\DelQ8.pdb
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DelQ8\obj\Debug\DelQ8.csproj.AssemblyReference.cache
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DelQ8\obj\Debug\DelQ8.csproj.CoreCompileInputs.cache
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DelQ8\obj\Debug\DelQ8.exe
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DelQ8\obj\Debug\DelQ8.pdb
