@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+           int sum=0;
+           while(true){
+            Console.WriteLine("Enter a no. to add or q to exit:);
+            string data="Console.ReadLine()";
+
+            if(data=="q"){
+                break;
+            }
+            sum=sum+int.Parse(data);
+           }
+           Console.WriteLine(sum);
+        }
+    }
+}

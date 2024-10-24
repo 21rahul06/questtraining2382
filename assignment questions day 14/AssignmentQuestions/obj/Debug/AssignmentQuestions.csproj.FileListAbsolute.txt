@@ -1,0 +1,7 @@
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\AssignmentQuestions\bin\Debug\AssignmentQuestions.exe.config
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\AssignmentQuestions\bin\Debug\AssignmentQuestions.exe
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\AssignmentQuestions\bin\Debug\AssignmentQuestions.pdb
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\AssignmentQuestions\obj\Debug\AssignmentQuestions.csproj.AssemblyReference.cache
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\AssignmentQuestions\obj\Debug\AssignmentQuestions.csproj.CoreCompileInputs.cache
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\AssignmentQuestions\obj\Debug\AssignmentQuestions.exe
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\AssignmentQuestions\obj\Debug\AssignmentQuestions.pdb

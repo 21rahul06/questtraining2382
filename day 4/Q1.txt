@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConvertLowToUpperAndUpperToLowerCase
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string str = "HeLlO WoRlD";
+
+            string result1="";
+            string result2="";
+            char[] ch= str.ToCharArray();
+            for (int i = 0; i < ch.Length; i++) {
+                if (ch[i]>='a' && ch[i] <= 'z')
+                {
+                    result1=result1+char.ToUpper(ch[i]);
+                }
+                else if (ch[i]>='A' && ch[i]<='Z') { 
+                   result2=result2+char.ToLower(ch[i]);
+                }
+
+               
+            }
+            string result = result1 + result2;
+            Console.WriteLine(result);
+
+        }
+    }
+}

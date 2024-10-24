@@ -1,0 +1,58 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Day_4_Arrays
+{
+    internal class Program
+    { 
+
+
+        static void Add(int a,int b) =>Console.WriteLine(a + b);
+
+
+        static void Sub(int a, int b) => Console.WriteLine(a - b);
+        
+        static void Mul(int a, int b)=>Console.WriteLine(a * b);
+        
+        
+
+
+        static void Main(string[] args)
+        {
+           
+            Console.WriteLine("Enter a value:");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter b value:");
+            int b= int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the Symbol:");
+            String symbol = Console.ReadLine();
+
+
+            switch (symbol)
+            {
+
+                case  "+":
+                    Add(a, b);
+                    break;
+
+                case "-":
+                    Sub(a, b);
+                    break;  
+
+                case  "*":
+                    Mul(a, b);
+                    break;
+
+                default:
+                    Console.WriteLine("Not valid symbol");
+                    break;
+
+
+            }
+            
+        }
+    }
+}

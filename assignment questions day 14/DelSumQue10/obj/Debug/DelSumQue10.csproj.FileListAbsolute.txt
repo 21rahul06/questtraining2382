@@ -1,0 +1,7 @@
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DelSumQue10\bin\Debug\DelSumQue10.exe.config
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DelSumQue10\bin\Debug\DelSumQue10.exe
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DelSumQue10\bin\Debug\DelSumQue10.pdb
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DelSumQue10\obj\Debug\DelSumQue10.csproj.AssemblyReference.cache
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DelSumQue10\obj\Debug\DelSumQue10.csproj.CoreCompileInputs.cache
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DelSumQue10\obj\Debug\DelSumQue10.exe
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DelSumQue10\obj\Debug\DelSumQue10.pdb

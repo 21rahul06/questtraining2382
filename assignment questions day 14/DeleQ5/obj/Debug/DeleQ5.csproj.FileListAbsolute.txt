@@ -1,0 +1,7 @@
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DeleQ5\bin\Debug\DeleQ5.exe.config
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DeleQ5\bin\Debug\DeleQ5.exe
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DeleQ5\bin\Debug\DeleQ5.pdb
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DeleQ5\obj\Debug\DeleQ5.csproj.AssemblyReference.cache
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DeleQ5\obj\Debug\DeleQ5.csproj.CoreCompileInputs.cache
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DeleQ5\obj\Debug\DeleQ5.exe
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\DeleQ5\obj\Debug\DeleQ5.pdb

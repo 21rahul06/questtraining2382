@@ -1,0 +1,7 @@
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\PersonQ14\bin\Debug\PersonQ14.exe.config
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\PersonQ14\bin\Debug\PersonQ14.exe
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\PersonQ14\bin\Debug\PersonQ14.pdb
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\PersonQ14\obj\Debug\PersonQ14.csproj.AssemblyReference.cache
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\PersonQ14\obj\Debug\PersonQ14.csproj.CoreCompileInputs.cache
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\PersonQ14\obj\Debug\PersonQ14.exe
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\PersonQ14\obj\Debug\PersonQ14.pdb

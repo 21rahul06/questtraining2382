@@ -1,0 +1,182 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace exam2
+{
+    internal class Program
+    {
+        static List<Dictionary<string, object>> patients = new List<Dictionary<string, object>>();
+
+        static void Main(string[] args)
+        {
+            bool isRunning = true; 
+            while (isRunning)
+            {
+                Console.WriteLine("--- Patient Record System ---");
+                Console.WriteLine("if to add New Patient type add");
+                Console.WriteLine("if to Search for a Patient type search");
+                Console.WriteLine("if to Update Patient Details type update");
+                Console.WriteLine("if to List All Admitted Patients type list");
+                Console.WriteLine("to exit type exit");
+                Console.Write("Choose an option: ");
+                string choice = Console.ReadLine();
+
+                if (choice == "add")
+                {
+                    AddNewPatient();
+                }
+                else if (choice == "search")
+                {
+                    SearchPatient();
+                }
+                else if (choice == "update")
+                {
+                    UpdatePatient();
+                }
+                else if (choice == "list")
+                {
+                    ListAdmittedPatients();
+                }
+                else if (choice == "exit")
+                {
+                    isRunning = false; 
+                }
+                else
+                {
+                    Console.WriteLine("Invalid option. Please try again.");
+                }
+            }
+        }
+
+        static void AddNewPatient()
+        {
+            Console.Write("Enter patient name: ");
+            string name = Console.ReadLine();
+
+            
+            foreach (var patient in patients)
+            {
+                if (patient["Name"].ToString().Equals(name, StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine("A patient with this name already exists. Use the update option to modify their details.");
+                    return;
+                }
+            }
+
+            Console.Write("Enter patient age: ");
+            int age = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter diagnosis: ");
+            string diagnosis = Console.ReadLine();
+
+            Console.Write("Is the patient admitted (yes/no)? ");
+            bool isAdmitted = Console.ReadLine().ToLower() == "yes";
+
+            
+            var newPatient = new Dictionary<string, object>
+            {
+                { "Name", name },
+                { "Age", age },
+                { "Diagnosis", diagnosis },
+                { "IsAdmitted", isAdmitted }
+            };
+
+           
+            patients.Add(newPatient);
+            Console.WriteLine("Patient record added successfully.");
+        }
+
+        static void SearchPatient()
+        {
+            Console.Write("Enter patient name to search: ");
+            string name = Console.ReadLine();
+
+            Dictionary<string, object> foundPatient = null;
+
+            
+            for (int i = 0; i < patients.Count; i++)
+            {
+                if (patients[i]["Name"].ToString().Equals(name, StringComparison.OrdinalIgnoreCase))
+                {
+                    foundPatient = patients[i];
+                    break; 
+                }
+            }
+
+            if (foundPatient == null)
+            {
+                Console.WriteLine("Patient not found.");
+                return;
+            }
+
+            Console.WriteLine("\n--- Patient Details ---");
+            Console.WriteLine($"Name: {foundPatient["Name"]}");
+            Console.WriteLine($"Age: {foundPatient["Age"]}");
+            Console.WriteLine($"Diagnosis: {foundPatient["Diagnosis"]}");
+            Console.WriteLine($"Admission Status: {foundPatient["IsAdmitted"]}");
+        }
+
+        static void UpdatePatient()
+        {
+            Console.Write("Enter patient name to update: ");
+            string name = Console.ReadLine();
+
+            Dictionary<string, object> patient = null;
+
+            
+            for (int i = 0; i < patients.Count; i++)
+            {
+                if (patients[i]["Name"].ToString().Equals(name, StringComparison.OrdinalIgnoreCase))
+                {
+                    patient = patients[i];
+                    break; 
+                }
+            }
+
+            if (patient == null)
+            {
+                Console.WriteLine("Patient not found.");
+                return;
+            }
+
+            Console.Write("Enter new diagnosis ");
+            string diagnosis = Console.ReadLine();
+            patient["Diagnosis"] = diagnosis;
+            Console.Write("Is the patient admitted (yes/no)?  ");
+            string admittedStatus = Console.ReadLine();
+            patient["IsAdmitted"] = admittedStatus.ToLower() == "yes";
+           
+
+            Console.WriteLine("Patient record updated successfully.");
+        }
+
+        static void ListAdmittedPatients()
+        {
+            var admittedPatients = new List<Dictionary<string, object>>();
+
+            
+            foreach (var patient in patients)
+            {
+                if ((bool)patient["IsAdmitted"])
+                {
+                    admittedPatients.Add(patient);
+                }
+            }
+
+            if (admittedPatients.Count == 0)
+            {
+                Console.WriteLine("No patients currently admitted.");
+                return;
+            }
+
+            Console.WriteLine("\n--- List of Admitted Patients ---");
+            foreach (var patient in admittedPatients)
+            {
+                Console.WriteLine($"Name: {patient["Name"]}, Age: {patient["Age"]}, Diagnosis: {patient["Diagnosis"]}");
+            }
+        }
+    }
+}

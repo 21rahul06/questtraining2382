@@ -1,0 +1,7 @@
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\IcalcuQ4\bin\Debug\IcalcuQ4.exe.config
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\IcalcuQ4\bin\Debug\IcalcuQ4.exe
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\IcalcuQ4\bin\Debug\IcalcuQ4.pdb
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\IcalcuQ4\obj\Debug\IcalcuQ4.csproj.AssemblyReference.cache
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\IcalcuQ4\obj\Debug\IcalcuQ4.csproj.CoreCompileInputs.cache
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\IcalcuQ4\obj\Debug\IcalcuQ4.exe
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\IcalcuQ4\obj\Debug\IcalcuQ4.pdb

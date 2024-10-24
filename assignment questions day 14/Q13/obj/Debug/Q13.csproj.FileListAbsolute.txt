@@ -1,0 +1,7 @@
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\Q13\bin\Debug\Q13.exe.config
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\Q13\bin\Debug\Q13.exe
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\Q13\bin\Debug\Q13.pdb
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\Q13\obj\Debug\Q13.csproj.AssemblyReference.cache
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\Q13\obj\Debug\Q13.csproj.CoreCompileInputs.cache
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\Q13\obj\Debug\Q13.exe
+C:\Users\Devika Jayan\source\repos\AssignmentQuestions\Q13\obj\Debug\Q13.pdb
